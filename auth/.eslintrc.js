@@ -18,5 +18,6 @@ module.exports = {
     'import/extensions': 0,
     'no-unused-vars': 0,
     'linebreak-style': 0,
+    'no-new': 0,
   },
 };

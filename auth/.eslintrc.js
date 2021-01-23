@@ -13,5 +13,7 @@ module.exports = {
     'no-console': 0,
     'import/prefer-default-export': 0,
     'prettier/prettier': 0,
+    'import/no-unresolved': 0,
+    'import/extensions': 0,
   },
 };

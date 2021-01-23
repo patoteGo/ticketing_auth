@@ -5,9 +5,9 @@ const app = express();
 app.use(json());
 
 app.get('/api/users/currentuser', (req, res) => {
-    res.send('hi there2!');
-})
+  res.send('hi there2!');
+});
 
 app.listen(3000, () => {
-    console.log('Listening on port 3000!!');
-})
+  console.log('Listening on port 3000!!');
+});

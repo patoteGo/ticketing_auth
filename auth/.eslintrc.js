@@ -19,5 +19,8 @@ module.exports = {
     'no-unused-vars': 0,
     'linebreak-style': 0,
     'no-new': 0,
+    'no-param-reassign': 0,
+    'no-underscore-dangle': 0,
+    'func-names': 0,
   },
 };

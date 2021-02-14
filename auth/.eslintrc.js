@@ -3,12 +3,12 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['airbnb-base'],
+  extends: ['airbnb-base', 'plugin:jest/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jest'],
   rules: {
     'consistent-return': 0,
     'no-console': 0,
@@ -22,5 +22,6 @@ module.exports = {
     'no-param-reassign': 0,
     'no-underscore-dangle': 0,
     'func-names': 0,
+    '@typescript-eslint/indent': ['error', 2],
   },
 };

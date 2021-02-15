@@ -1,2 +1,5 @@
 /auth/node_modules
 /skaffold.yaml
+/client/node_modules
+/client/package-lock.json
+/client/.next

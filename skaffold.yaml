@@ -16,4 +16,12 @@ build:
         manual:
           - src: 'src/**/*.ts'
             dest: .
+    - image: patote/ticketing-client
+      context: client
+      docker:
+        dockerfile: dockerfile
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: .
             

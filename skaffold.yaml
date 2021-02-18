@@ -11,7 +11,7 @@ build:
     - image: patote/ticketing-auth
       context: auth
       docker:
-        dockerfile: dockerfile
+        dockerfile: Dockerfile
       sync:
         manual:
           - src: 'src/**/*.ts'
@@ -19,9 +19,8 @@ build:
     - image: patote/ticketing-client
       context: client
       docker:
-        dockerfile: dockerfile
+        dockerfile: Dockerfile
       sync:
         manual:
           - src: '**/*.js'
             dest: .
-            

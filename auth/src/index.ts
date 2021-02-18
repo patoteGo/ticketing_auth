@@ -8,7 +8,7 @@ const start = async () => {
   }
 
   try {
-    await mongoose.connect('mongodb://auth-mongo-srv:27017/test', {
+    await mongoose.connect('mongodb://auth-mongo-srv:27017/auth', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,

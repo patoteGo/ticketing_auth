@@ -3,3 +3,5 @@
 /client/node_modules
 /client/package-lock.json
 /client/.next
+/clientOLD/.next
+/clientOLD/node_modules

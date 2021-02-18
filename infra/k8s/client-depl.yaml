@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: patote/ticketing-client
+          image: patote/client
 ---
 apiVersion: v1
 kind: Service
